@@ -17,7 +17,14 @@ Dengan menggunakan **ESP32**, **sensor ultrasonik**, dan **motor servo**, sistem
 - **Sensor Ultrasonik**: Mengukur jarak kendaraan dan memberikan sinyal untuk membuka pintu parkir.
 - **Motor Servo**: Digunakan untuk membuka dan menutup pintu parkir sesuai kebutuhan.
 - **Google Sheets**: Tempat penyimpanan data status parkir secara real-time.
-- **Wokwi**: Platform untuk mensimulasikan dan mendemonstrasikan cara kerja sistem secara visual.
+- **Wokwi**: Platform untuk mensimulasikan dan mendemonstrasikan cara kerja sistem secara visual. Jika Anda tidak memiliki perangkat fisik, Anda dapat menggunakan **Wokwi** untuk menjalankan simulasi proyek ini.
+
+## Libraries yang Digunakan
+Berikut adalah library yang diinstal dalam proyek ini:
+
+- **LiquidCrystal I2C**: Untuk menampilkan informasi status slot parkir di layar LCD.
+- **Servo**: Untuk mengendalikan motor servo dalam membuka dan menutup pintu parkir.
+- **ESP32Servo**: Digunakan khusus untuk kontrol motor servo pada ESP32.
 
 ## Tujuan Proyek
 - Mengoptimalkan penggunaan ruang parkir di area yang padat seperti gedung perkantoran atau tempat parkir umum.
@@ -25,9 +32,7 @@ Dengan menggunakan **ESP32**, **sensor ultrasonik**, dan **motor servo**, sistem
 - Memberikan solusi **IoT (Internet of Things)** yang terintegrasi dengan **cloud computing** untuk mempermudah pengelolaan parkir.
 
 ## Demo
-![Sistem Parkir Pintar](https://example.com/demo.gif)  <!-- Gantilah dengan gambar demo atau gif yang relevan -->
-
-Simak video demo proyek kami untuk melihat bagaimana sistem parkir pintar ini bekerja di [YouTube](https://www.youtube.com/yourvideo).
+Simak video demo proyek kami untuk melihat bagaimana sistem parkir pintar ini bekerja di [YouTube]([https://www.youtube.com/yourvideo](https://youtu.be/LUXA-J6YsoQ?si=VSm18JSUNPB60Mnk)).
 
 ## Instalasi
 Untuk menjalankan proyek ini, pastikan Anda sudah menginstal beberapa hal berikut:
