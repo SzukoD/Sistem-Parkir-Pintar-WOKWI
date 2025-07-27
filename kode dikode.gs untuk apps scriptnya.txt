@@ -1,0 +1,10 @@
+function doPost(e) {
+  var slot = e.parameter.slot; 
+  var keterangan = e.parameter.keterangan;
+  var statusParkir = e.parameter.statusParkir;
+  var lokasi = e.parameter.lokasi;
+ // Mendapatkan parameter 'slot'
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+  sheet.appendRow([new Date(), slot, keterangan, statusParkir, lokasi]);  // Menambahkan data ke dalam Google Sheets
+  return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
+}
