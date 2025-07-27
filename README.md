@@ -32,7 +32,7 @@ Berikut adalah library yang diinstal dalam proyek ini:
 - Memberikan solusi **IoT (Internet of Things)** yang terintegrasi dengan **cloud computing** untuk mempermudah pengelolaan parkir.
 
 ## Demo
-Simak video demo proyek kami untuk melihat bagaimana sistem parkir pintar ini bekerja di [YouTube]([https://www.youtube.com/yourvideo](https://youtu.be/LUXA-J6YsoQ?si=VSm18JSUNPB60Mnk)).
+Simak video demo proyek kami untuk melihat bagaimana sistem parkir pintar ini bekerja di **[YouTube](https://youtu.be/LUXA-J6YsoQ?si=IIke9WmznAZ-GYEc)**.
 
 ## Instalasi
 Untuk menjalankan proyek ini, pastikan Anda sudah menginstal beberapa hal berikut:
